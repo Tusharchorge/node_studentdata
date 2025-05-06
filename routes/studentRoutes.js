@@ -6,9 +6,10 @@ const { createStudent } = require('../controllers/createStudent');
 const { updateStudent } = require('../controllers/updateStudent');
 const { deleteStudent } = require('../controllers/deleteStudent');
 
-
+//To get Students GET
 router.get('/all',getallStudents);
 
+//To get Student by ID
 router.get('/get/:st_id',getallStudentByID)
 
 router.post('/add',createStudent);
