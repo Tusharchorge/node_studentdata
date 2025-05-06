@@ -1,0 +1,20 @@
+{
+  "name": "node_basic",
+  "version": "2.0.1",
+  "description": "Its just a practice for node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Tushar Chorge",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "colors": "^1.4.0",
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10"
+  }
+}
